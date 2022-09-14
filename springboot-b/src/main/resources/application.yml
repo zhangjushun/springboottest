@@ -1,0 +1,17 @@
+server:
+    port: 8080
+    servlet:
+      encoding:
+          enabled: true #默认已经用着ISO-8859-1，关闭配置好的过滤器即可用自己的
+          force: true
+          charset: utf-8
+
+spring:
+    application:
+        name: springboot-b
+    redis:
+        host: 112.126.68.90
+        database: 2
+        password: 0p-0p-0p-
+school:
+    name: springboot-
